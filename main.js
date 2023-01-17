@@ -1,4 +1,4 @@
-const clearIcon = document.querySelector("#clear");
+/*const clearIcon = document.querySelector("#clear");
   const searchBar = document.querySelector("#searchbar");
 
   searchBar.addEventListener("keyup", () => {
