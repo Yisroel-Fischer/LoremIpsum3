@@ -112,12 +112,12 @@ header{
 }
 
 #portrait-background{
-    /*display: none;*/
+    display: none;
 }
 
-@media only screen and orientation:(portrait) {
+@media only screen and (orientation: portrait) {
     #main-background{
-        display: none;
+        display:none
     }
 
     #portrait-background{
