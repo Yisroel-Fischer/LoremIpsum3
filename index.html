@@ -4,15 +4,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lorem Ipsum</title>
     <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="./Media/icon.png">
   </head>
   <body>
     <header>
         <ul class="navbar" id="left-navbar">
-            <li><a href="#" class="navlink" id="events">Events</a></li>
             <li><a href="#" class="navlink" id="sell">Sell Books</a></li>
+            <li><a href="#" class="navlink" id="events">Events</a></li>
             <li><a href="#" class="navlink" id="info">Hours and Location</a></li>
         </ul>
+        <div class="mobile" id="hamburger-menu-container">
+            <div id="hamburger-icon">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+            </div>
+            <div id="hamburger-menu">
+              <a href="#" class="m-navlink" id="m-subjects">Books by subject</a>
+              <a href="#" class="m-navlink" id="m-sell">Sell Books</a>
+              <a href="#" class="m-navlink" id="m-events">Events</a>
+              <a href="#" class="m-navlink" id="m-info">Hours and Location</a>
+            </div>           
+        </div>
         <div id="logo">
             <div id="logo-border"></div>        
             <a href="./index.html"><img src="./Media/logo.png" id="logo-img"></a>
@@ -25,7 +39,7 @@
                 <input type="search" id="searchbar" placeholder="Search our collection">
             </li>
             <li class="navlink"><a href="#"><img src="./Media/cart.png" id="cart"></a></li>
-        </ul>
+        </ul>  
     </header>
     <main>
         <img src="./Media/shelves2.jpg" alt="bookshelves" id="main-background">
