@@ -161,6 +161,23 @@ header{
         color: var(--color2);
     }
 
+    .m-navlink{
+        color: black; 
+        background-color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 12px;
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        border-right:5px solid var(--color2);
+        border-left:5px solid var(--color2);
+        border-top: 5px solid var(--color2);
+    }
+
+   #hamburger-menu{
+    border-bottom: 5px solid var(--color2);
+   }
+
    #search{
     display: none;
    }
